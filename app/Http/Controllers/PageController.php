@@ -14,6 +14,7 @@ class PageController extends Controller
         $docsPath = resource_path('docs');
         $requestedPath = resource_path('/').request()->path().'.md';
         $docsFilesPath = $docsPath.'/'.current_version();
+        $page = str_replace('docs/', '', request()->path());
 
         if (current_version() === null) {
             $versions = $this->versions($docsPath);
@@ -31,7 +32,7 @@ class PageController extends Controller
         $versions = $this->versions($docsPath);
         $sidebar = Str::markdown(file_get_contents($docsFilesPath.'/_nav.md'));
 
-        return view('page', compact('title', 'content', 'toc', 'versions', 'sidebar'));
+        return view('page', compact('title', 'content', 'toc', 'versions', 'sidebar', 'page'));
     }
 
     protected function getPageTitle(string $filePath): array
@@ -66,6 +67,9 @@ class PageController extends Controller
         foreach (glob($path.'/*', GLOB_ONLYDIR) as $dir) {
             $versions[] = basename($dir);
         }
+
+        natsort($versions);
+        $versions = array_reverse($versions);
 
         return $versions;
     }
