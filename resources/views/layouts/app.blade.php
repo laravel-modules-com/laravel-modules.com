@@ -29,7 +29,7 @@
                 </a>
                 <div class="hidden md:flex items-center gap-4">
                     <a class="hover:opacity-75" href="/docs">Documentation</a>
-                    <a class="hover:opacity-75" href="https://modularlaravel.com/" target="_blank">Book</a>
+                    <a class="hover:opacity-75" href="https://modularlaravel.com?utm_source={{ url()->current() }}&utm_medium=docs&utm_campaign=Laravel Modules" target="_blank">Book</a>
                     <a class="hover:opacity-75" href="https://discord.gg/hkF7BRvRZK" target="_blank">Discord</a>
                 </div>
             </div>

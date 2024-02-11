@@ -30,7 +30,7 @@
                 <hr>
                 <p class="mb-10">
                     Laravel Package built by <a href="https://github.com/nwidart" target="_blank">Nicolas Widart</a>.<br>
-                    Maintained by <a href="https://dcblog.dev" target="_blank">David Carr</a>
+                    Maintained by <a href="https://dcblog.dev?utm_source={{ url()->current() }}&utm_medium=docs&utm_campaign=Laravel Modules" target="_blank">David Carr</a>
                     follow on X <a href="https://twitter.com/dcblogdev" target="_blank">@dcblogdev</a>
                 </p>
 

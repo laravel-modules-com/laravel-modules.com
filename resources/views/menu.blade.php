@@ -9,7 +9,7 @@
             <div x-show="sidebarOpen" class="sidebar mt-5 prose prose-2xl">
                 <ul>
                     <li><a class="hover:opacity-75" href="/docs">Documentation</a></li>
-                    <li><a class="hover:opacity-75" href="https://modularlaravel.com/" target="_blank">Book</a></li>
+                    <li><a class="hover:opacity-75" href="https://modularlaravel.com?utm_source={{ url()->current() }}&utm_medium=docs&utm_campaign=Laravel Modules" target="_blank">Book</a></li>
                     <li><a class="hover:opacity-75" href="https://discord.gg/hkF7BRvRZK" target="_blank">Discord</a></li>
                 </ul>
             </div>
