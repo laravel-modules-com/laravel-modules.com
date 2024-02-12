@@ -22,7 +22,8 @@ document.querySelectorAll(".sidebar ul li a").forEach((link) => {
 
 docsearch({
     container: '#docsearch',
-    appId: 'todo',
-    apiKey: 'todo',
+    appId: 'UZ1YTL5HNE',
+    apiKey: '57ee2719e0cd664678db3d2f397f281e',
     indexName: 'laravelmodules',
+    insights: true
 });

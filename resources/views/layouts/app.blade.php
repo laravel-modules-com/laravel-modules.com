@@ -49,7 +49,7 @@
 
             <div class="flex items-center justify-end gap-6 lg:shrink-0">
 
-                {{--<div id="docsearch"></div>--}}
+                <div id="docsearch"></div>
 
                 <div class="flex gap-2 items-center">
                     <a href="https://github.com/nWidart/laravel-modules" class="rounded-md p-1 text-white transition-colors hover:text-gray-300 focus:outline-none focus-visible:ring focus-visible:ring-pink-400/50">
