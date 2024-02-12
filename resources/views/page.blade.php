@@ -20,7 +20,7 @@
             </div>
 
             <div class="mt-4 prose prose-md prose-a:text-blue-400 max-w-none">
-                <div class="w-100 lg:block hidden h-8 mt-2 text-sm">
+                <div class="w-100 lg:block h-8 mt-2 text-sm">
                     <a href="https://github.com/laravel-modules-com/docs/edit/main/{{ $page }}.md">Edit this page →</a>
                 </div>
                 <div id="content">
