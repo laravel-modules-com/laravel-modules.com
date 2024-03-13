@@ -8,7 +8,7 @@ Route::get('/', function () {
 });
 
 Route::get('docs', function () {
-    return redirect('docs/v10/introduction');
+    return redirect('docs/v11/introduction');
 });
 
 Route::get('docs/{path}', [PageController::class, 'page'])->name('docs.page')->where(['path' => '.*']);
