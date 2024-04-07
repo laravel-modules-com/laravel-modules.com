@@ -4,7 +4,7 @@
 
 <main role="main" class="overflow-hidden lg:flex lg:flex-1 lg:flex-col z-0">
     <div class="max-w-screen-2xl w-full mx-auto px-6 flex flex-wrap justify-between gap-10">
-        <div class="fixed -mx-3 overflow-y-auto custom-scrollbar max-h-[calc(100%-74px)] hidden lg:block py-4 lg:max-w-[240px] lg:w-full">
+        <div class="-mx-3 overflow-y-auto custom-scrollbar max-h-[calc(100%-74px)] hidden lg:block py-4 lg:max-w-[240px] lg:w-full">
 
             @include('menu', compact('versions', 'sidebar'))
 
