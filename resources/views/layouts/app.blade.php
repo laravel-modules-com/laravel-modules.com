@@ -16,19 +16,6 @@
 </head>
 <body class="bg-gray-900">
 
-
-<div id="ab-full-width-with-dismiss-button-on-blue-bg" class="hs-removing:-translate-y-full bg-blue-600">
-  <div class="max-w-[85rem] px-4 py-4 sm:px-6 lg:px-8 mx-auto">
-    <div class="flex">
-      <p class="text-white text-sm m-0">
-        If you find this website useful, your sponsorship would greatly support its ongoing development and maintenance.
-          <a class="underline text-white font-medium" href="https://github.com/sponsors/dcblogdev" target="_blank">Learn more</a>
-      </p>
-    </div>
-  </div>
-</div>
-
-
 <div class="absolute left-[calc(50%-4rem)] top-20 -z-10 transform-gpu blur-3xl sm:left-[calc(50%-18rem)] lg:left-48 lg:top-[calc(50%-30rem)] xl:left-[calc(50%-24rem)]" aria-hidden="true">
     <div class="aspect-[1108/632] w-[69.25rem] bg-gradient-to-r from-[#80caff] to-[#4f46e5] opacity-20" style="clip-path: polygon(73.6% 51.7%, 91.7% 11.8%, 100% 46.4%, 97.4% 82.2%, 92.5% 84.9%, 75.7% 64%, 55.3% 47.5%, 46.5% 49.4%, 45% 62.9%, 50.3% 87.2%, 21.3% 64.1%, 0.1% 100%, 5.4% 51.1%, 21.4% 63.9%, 58.9% 0.2%, 73.6% 51.7%)"></div>
 </div>

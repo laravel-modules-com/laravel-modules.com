@@ -12,4 +12,5 @@ Route::get('docs', function () {
 });
 
 Route::get('docs/{path}', [PageController::class, 'page'])->name('docs.page')->where(['path' => '.*']);
+Route::view('become-a-sponsor', 'become-a-sponsor')->name('become-a-sponsor');
 
