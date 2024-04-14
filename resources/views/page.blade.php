@@ -40,7 +40,7 @@
 
         <h2 class="mb-5 text-white">Sponsors</h2>
 
-        <a href="https://dcblog.dev" target="_blank" class="mt-5">
+        <a href="https://dcblog.dev?utm_source=laravelmodules.com&utm_medium=website" target="_blank" class="mt-5">
             <img class="mx-auto text-center rounded-md" src="{{ url('images/sponsors/dcblog.png') }}" alt="David Carr Laravel Developer" title="David Carr Laravel Developer">
         </a>
 
