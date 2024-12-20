@@ -11,7 +11,6 @@
     <title>@yield('title') - {{ config('app.name', 'Laravel') }}</title>
     <link rel="canonical" href='{{ url()->current() }}'>
     <script src="https://cdn.usefathom.com/script.js" data-site="SDINLFLK" defer></script>
-    <script defer type="text/javascript" src="https://api.pirsch.io/pirsch-extended.js" id="pirschextendedjs" data-code="kobPzZYB9N6kgw8LP3bWWu9SSNoeMMRH"></script>
     @vite(['resources/sass/app.scss', 'resources/js/app.js'])
 </head>
 <body class="bg-gray-900">
