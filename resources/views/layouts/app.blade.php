@@ -1,17 +1,18 @@
 <!DOCTYPE html>
-<html
-        lang="en"
-        class="scroll-smooth"
->
+<html lang="en" class="dark scroll-smooth">
 <head>
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="google-site-verification" content="FcP5XSWeK2YHHMatXtuM7-E-9J8XxZDtCKMtvjz00wM"/>
     @yield('meta')
     <title>@yield('title') - {{ config('app.name', 'Laravel') }}</title>
+    <link rel="icon" href="{{ url('favicon.ico') }}" type="image/x-icon">
     <link rel="canonical" href='{{ url()->current() }}'>
-    <script src="https://cdn.usefathom.com/script.js" data-site="SDINLFLK" defer></script>
+    @yield('meta')
     @vite(['resources/sass/app.scss', 'resources/js/app.js'])
+    @env('production')
+        <script src="https://cdn.usefathom.com/script.js" data-site="SDINLFLK" defer></script>
+    @endenv
 </head>
 <body class="bg-gray-900">
 
