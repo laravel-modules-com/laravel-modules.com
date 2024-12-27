@@ -2,7 +2,7 @@
 <html lang="en" class="dark scroll-smooth">
 <head>
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
     <meta name="google-site-verification" content="FcP5XSWeK2YHHMatXtuM7-E-9J8XxZDtCKMtvjz00wM"/>
     @yield('meta')
     <title>@yield('title') - {{ config('app.name', 'Laravel') }}</title>
@@ -22,7 +22,7 @@
 
 <div x-data="{ sidebarOpen: false }" class="sticky top-0 z-10">
     <header class="text-white bg-gray-900 border-gray-700 border-b">
-        <div class="max-w-screen-2xl mx-auto px-6 py-4 flex items-center justify-between gap-6">
+        <div class="max-w-screen-xl mx-auto px-3 sm:px-6 py-4 flex items-center justify-between gap-6">
             <div class="-mx-2 flex items-center gap-10 xl:flex-1 xl:shrink-0">
                 <a href="/" class="hover:opacity-75 bold">
                     Laravel Modules

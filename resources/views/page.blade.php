@@ -10,7 +10,7 @@
 
     </div>
 
-    <div class="w-full md:w-7/12 mb-4 px-10 p-3">
+    <div class="w-full md:w-7/12 mb-4 px-4 sm:px-10 p-3">
 
         <h1 class="text-4xl font-bold text-white"># {{ $title }}</h1>
 
