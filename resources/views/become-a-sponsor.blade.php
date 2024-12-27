@@ -14,7 +14,7 @@
 </article>
 
 <article class="mx-auto max-w-2xl">
-    <p><a href="https://dcblogdev.lemonsqueezy.com/buy/ab6b30aa-ee1c-4609-a732-59a5a1472050" class="bg-sky-500 text-white p-5 rounded-lg">Become a sponsor for $20 a month</a></p>
+    <p><a href="https://buy.polar.sh/polar_cl_YBDmq7vfMPDox6DHl5T14ynX-rY4C_f2ek_hld6ixU8" class="bg-sky-500 text-white p-5 rounded-lg">Become a sponsor for $20 a month</a></p>
 </article>
 
 @endsection
