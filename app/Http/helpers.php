@@ -1,6 +1,6 @@
 <?php
 
-function toc($html)
+function toc(string $html): array
 {
     preg_match_all('/<h([1-6])*[^>]*>(.*?)<\/h[1-6]>/', $html, $matches);
 
@@ -27,12 +27,12 @@ function toc($html)
     return ['html' => $html, 'index' => $index];
 }
 
-function current_version()
+function current_version(): string
 {
     return request()->segment(2);
 }
 
-function current_page()
+function current_page(): string
 {
     return request()->segment(3);
 }
