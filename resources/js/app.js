@@ -1,29 +1,7 @@
 import Alpine from 'alpinejs'
-import docsearch from '@docsearch/js';
+import codeBlock from "./alpine/codeBlock.js";
 
-window.Alpine = Alpine
-Alpine.start();
+window.Alpine = Alpine;
 
-import Prism from 'prismjs';
-import 'prismjs/themes/prism-tomorrow.min.css'; // see other themes in the prism docs
-import 'prismjs/components/prism-markup-templating';
-import 'prismjs/components/prism-php';
-import 'prismjs/components/prism-css';
-import 'prismjs/components/prism-javascript';
-Prism.highlightAll()
-
-document.querySelectorAll(".sidebar ul li a").forEach((link) => {
-    if (link.href === window.location.href) {
-        link.closest('a').classList.add("active");
-    } else {
-        link.closest('a').classList.remove('active')
-    }
-});
-
-docsearch({
-    container: '#docsearch',
-    appId: 'UZ1YTL5HNE',
-    apiKey: '57ee2719e0cd664678db3d2f397f281e',
-    indexName: 'laravelmodules',
-    insights: true
-});
+Alpine.data('codeBlock', codeBlock)
+Alpine.start()

@@ -1,6 +1,6 @@
-@extends("layouts.app")
+<x-layout>
+
 @section('title', 'Become a Sponsor')
-@section('content')
 
 <article class="bg-sky-500 text-white my-10 p-2 mx-auto max-w-2xl">
 
@@ -17,4 +17,4 @@
     <p><a href="https://buy.polar.sh/polar_cl_YBDmq7vfMPDox6DHl5T14ynX-rY4C_f2ek_hld6ixU8" class="bg-sky-500 text-white p-5 rounded-lg">Become a sponsor for $20 a month</a></p>
 </article>
 
-@endsection
+</x-layout>
