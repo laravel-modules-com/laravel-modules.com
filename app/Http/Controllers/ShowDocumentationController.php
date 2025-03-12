@@ -49,7 +49,7 @@ class ShowDocumentationController extends Controller
         SEOTools::setTitle($pageProperties['title'].' - v'.$version);
         SEOTools::setDescription(Arr::exists($pageProperties, 'description') ? $pageProperties['description'] : '');
 
-        return view('docs.index')->with($pageProperties);
+        return view('docs')->with($pageProperties);
     }
 
     protected function getPageProperties($version, $page = null): array
