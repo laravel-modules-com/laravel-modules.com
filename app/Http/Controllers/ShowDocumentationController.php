@@ -108,7 +108,7 @@ class ShowDocumentationController extends Controller
             ->setActive(\request()->path())
             ->__toString();
 
-        $pageProperties['editUrl'] = "https://github.com/nWidart/laravel-modules/tree/main/resources/views/docs/{$version}/{$page}.md";
+        $pageProperties['editUrl'] = "https://github.com/laravel-modules-com/docs/{$version}/{$page}.md";
 
         // Find the next & previous page in the navigation
         $pageProperties['nextPage'] = null;
