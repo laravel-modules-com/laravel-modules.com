@@ -32,7 +32,7 @@
 
         <div class="flex flex-col items-center mt-6 sm:flex-row sm:space-x-6">
 
-            <a href="/docs/12" class="w-full px-12 py-4 text-lg font-bold text-gray-900 bg-white border rounded-lg sm:w-auto focus:outline-none">
+            <a href="/docs/13" class="w-full px-12 py-4 text-lg font-bold text-gray-900 bg-white border rounded-lg sm:w-auto focus:outline-none">
                 Get started
             </a>
 
